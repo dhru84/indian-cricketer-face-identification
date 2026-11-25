@@ -1,0 +1,57 @@
+{
+  "Haar + PCA + SVM (baseline)": {
+    "accuracy": 0.509090909090909,
+    "macro_f1": 0.4194516594516594,
+    "test_faces": 55
+  },
+  "FaceNet + kNN": {
+    "accuracy": 0.8904109589041096,
+    "macro_f1": 0.8831569410981176
+  },
+  "FaceNet + SVM (final)": {
+    "accuracy": 0.863013698630137,
+    "macro_f1": 0.85601917690153,
+    "test_faces": 73
+  },
+  "open_set": {
+    "chosen_threshold": 0.7,
+    "sweep": [
+      {
+        "threshold": 0.3,
+        "known_correct": 0.8877489359301804,
+        "unknown_rejected": 0.0,
+        "balanced": 0.4438744679650902
+      },
+      {
+        "threshold": 0.4,
+        "known_correct": 0.8877489359301804,
+        "unknown_rejected": 0.025745965401137817,
+        "balanced": 0.45674745066565914
+      },
+      {
+        "threshold": 0.5,
+        "known_correct": 0.8801711215876603,
+        "unknown_rejected": 0.15827521325492927,
+        "balanced": 0.5192231674212948
+      },
+      {
+        "threshold": 0.6,
+        "known_correct": 0.8027172498265562,
+        "unknown_rejected": 0.4511802610281312,
+        "balanced": 0.6269487554273437
+      },
+      {
+        "threshold": 0.7,
+        "known_correct": 0.5026386635569582,
+        "unknown_rejected": 0.7916566612712658,
+        "balanced": 0.6471476624141119
+      },
+      {
+        "threshold": 0.8,
+        "known_correct": 0.10503939514173273,
+        "unknown_rejected": 0.9790987631555584,
+        "balanced": 0.5420690791486455
+      }
+    ]
+  }
+}
