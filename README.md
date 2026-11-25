@@ -2,11 +2,6 @@
 
 > A computer vision system that **detects a face in an image and identifies which Indian cricket team member it is**, using pretrained **FaceNet embeddings** and a **calibrated SVM classifier**. If the face does not belong to any trained player, it says **"Unknown"** instead of guessing a wrong name.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/indian-cricketer-face-identification/blob/main/notebooks/colab_runner.ipynb)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-FaceNet-ee4c2c)
-![Streamlit](https://img.shields.io/badge/Demo-Streamlit-ff4b4b)
-
 ---
 
 ## 🎯 Problem statement
@@ -216,8 +211,6 @@ Upload any photo and the app shows:
 - a **threshold slider** to make the system stricter or more lenient.
 
 > 💡 The saved threshold is **0.7**, which rejects many strangers but also some genuine photos (see the Unknown-person table). If too many real players show as *Unknown*, lower the slider to about **0.5**.
-
-![Demo screenshot](docs/demo.png)
 
 **Use it from Python**
 ```python
